@@ -14,3 +14,7 @@ Updates and code for the final project of DTC 477, Tic Tac Toe.
 12/4/22 - Ran into a couple of bugs surrounding the game board and rotating turns. Primarily in Javascript. Refining bugs and tuning issues. 
 
 12/5/22 - Customized the Restart button more, startted adding code to detect whose turn it is and display on the page accordingly. 
+
+12/6/22 - Break from project
+
+12/7/22 - Worked more on refining the button and attempting to fix bugs within the code. Worked on Javascript and making functions for winning conditions. 
