@@ -22,3 +22,7 @@ Updates and code for the final project of DTC 477, Tic Tac Toe.
 12/8/22 - Worked on formatting for HTML CSS, finally fixed some important issues! The 3x3 tiles are now properly formatted, and a linear gradient has been created for the background properly. Reset button has been formatted in the center of the page. (FORGOT TO UPDATE GITHUB ON ACTUAL DAY)
 
 12/9/22 - Experimented with adding a snowfall effect onto the screen, and working on adding Christmas music into the background. WIP. 
+
+12/10/22 - Break from project
+
+12/11/22 - Attempting to fix some bugs involving the winning conditions and reset button.
