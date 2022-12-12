@@ -1,0 +1,91 @@
+h1 {
+  font-size: 100px; 
+  font-family: sans-serif; 
+  color: whitesmoke; 
+  text-align: center; 
+  justify-content: center;
+  flex-direction: column; 
+}
+
+p {
+  font-size: 25px; 
+  font-family: sans-serif; 
+  color: whitesmoke; 
+  text-align: center; 
+  justify-content: center;
+  flex-direction: column; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; 
+  box-sizing: border-box;
+  background-image: linear-gradient(to left top, red, limegreen);
+  background-attachment: fixed; 
+}
+
+#board { 
+  display: grid;
+  grid-gap: 15px; 
+  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px; 
+  text-align: center;
+  align-content: center;
+  align-items: center;
+  grid: flex; 
+  justify-content: center; 
+}
+
+.sq { 
+  height: 60px;
+  width: 60px; 
+  font-family: sans-serif; 
+  text-align: center; 
+  font-size: 50px;
+  padding: 20px 20px; 
+  color: whitesmoke;
+  border: 3px solid whitesmoke; 
+  border-radius: 5px 5px 5px 5px;  
+}
+
+#reset {
+  display: flex;
+  text-align: center;
+  color: black; 
+  font-family: sans-serif;
+  padding: 10px 20px; 
+  align-content: center; 
+  flex-direction: column; 
+  margin: auto; 
+}
+
+/*  Everything below this comment was taken from a YouTube video, just as something extra I wanted to try out. NOT MY CODE! https://www.youtube.com/watch?v=IxG5cQCIVE8. Didn't end up working. */
+.snow-wrap { 
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center bottom; 
+  position: relative; 
+  overflow: hidden; 
+}
+
+.snow,.snow:after,.snow:before{
+  content: ""; 
+  position: absolute; 
+  top: -650px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image; 
+  radial-gradient(4px 4px at 100px 50px, #fff, transparent);
+  radial-gradient(6px 6px at 200px 150px, #fff, transparent);
+  radial-gradient(3px 3px at 300px 250px, #fff, transparent);
+  radial-gradient(4px 4px at 400px 350px, #fff, transparent);
+  radial-gradient(6px 6px at 500px 100px, #fff, transparent);
+  radial-gradient(3px 3px at 50px 200px, #fff, transparent);
+  radial-gradient(4px 4px at 150px 300px, #fff, transparent);
+  radial-gradient(6px 6px at 250px 400px, #fff, transparent);
+  radial-gradient(3px 3px at 350px 500px, #fff, transparent);
+  background-size: 650px 650px; 
+}
