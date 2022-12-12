@@ -26,3 +26,5 @@ Updates and code for the final project of DTC 477, Tic Tac Toe.
 12/10/22 - Break from project
 
 12/11/22 - Attempting to fix some bugs involving the winning conditions and reset button.
+
+12/12/22 - Final attempts at fixing code, and finalizing what I have completed.
